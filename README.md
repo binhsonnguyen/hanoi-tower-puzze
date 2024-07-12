@@ -1,1 +1,5 @@
-Created with vanila html + typescript.
+Craft with
+- vanilla html
+- typescript
+- pixijs
+- webpack
