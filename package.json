@@ -11,11 +11,13 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "versioning": "yarn version patch",
-    "clean": "rm -rf dist",
     "test": "jest",
-    "start": "webpack --mode development && webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "prod": "yarn clean && yarn build && yarn publish"
+    "start": "yarn build:development && yarn serve:development",
+    "prod": "yarn build:clean && yarn build:production && yarn publish",
+    "build:clean": "rm -rf dist",
+    "build:development": "webpack --mode development",
+    "build:production": "webpack --mode production",
+    "serve:development": "webpack-dev-server --mode development"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
