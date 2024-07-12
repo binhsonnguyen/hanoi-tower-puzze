@@ -1,1 +1,1 @@
-Created with https://vitejs.dev/
+Created with vanila html + typescript.
