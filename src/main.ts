@@ -45,9 +45,9 @@ async function init() {
 }
 
 function resize () {
-
+  console.log('resize not implemented')
 }
 
 function visibilityChange () {
-
+  console.log('visibility change not implemented')
 }
