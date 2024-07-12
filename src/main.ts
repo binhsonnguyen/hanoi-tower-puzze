@@ -19,7 +19,7 @@ async function init () {
   // Initialize app
   await app.init({
     resolution: Math.max(window.devicePixelRatio, 2),
-    backgroundColor: 0x1099bb,
+    backgroundColor: 0xffffff,
   })
 
   // Add pixi canvas element (app.canvas) to the document's body
