@@ -1,3 +1,4 @@
-import greeting from './greeting.js'
+import greeting from './greeting'
+import './style.css'
 
 greeting()
