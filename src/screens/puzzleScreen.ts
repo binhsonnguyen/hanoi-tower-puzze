@@ -1,13 +1,13 @@
 import { Container } from 'pixi.js'
-import { Disc } from '../ui/disc'
+import { Tower } from '../ui/tower'
 
 export class PuzzleScreen extends Container {
-  private _disc: Disc
+  private _tower: Tower
 
   constructor () {
     super()
-    this._disc = new Disc()
+    this._tower = new Tower()
 
-    this.addChild(this._disc)
+    this.addChild(this._tower)
   }
 }
